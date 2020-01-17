@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arkitektur i Örebro</string>
+    <string name="title_orebro">Örebros framväxt</string>
+    <string name="title_list">Byggnadslista</string>
+    <string name="title_map">Karta</string>
+    <string name="title_info">Information</string>
+    <string name="fet_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed justo neque. Suspendisse quis erat ante. Nunc nec risus ut lorem fringilla dictum. Duis velit elit, ultricies vitae posuere vitae, ornare non elit. \nIn pellentesque, dolor et sodales ullamcorper, risus nunc consectetur enim, auctor gravida lacus risus eget magna. Ut eu fringilla eros. Nulla sit amet diam eget tellus mollis imperdiet vel non eros. Phasellus neque dolor, tincidunt nec laoreet eleifend, ullamcorper sed lectus. Morbi quis aliquet lectus. Nulla eu justo neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+Sed mauris nibh, vehicula at bibendum nec, gravida non metus. Mauris sollicitudin, arcu quis scelerisque placerat, lacus sem sodales purus, in tincidunt libero magna a nibh. Donec commodo ullamcorper posuere. Mauris ultrices ante et mi aliquet ac congue libero consequat. Nunc augue lacus, laoreet et congue vitae, aliquet ac enim. Suspendisse dui arcu, feugiat in placerat a, porttitor id massa. Phasellus at justo metus. Proin diam nisi, placerat nec dapibus vitae, accumsan cursus leo. Aliquam tempor elementum placerat. Ut hendrerit porta risus, quis rhoncus nunc sagittis at. Mauris ornare dolor et felis pulvinar luctus. Morbi sit amet quam ipsum. Duis vitae diam id mauris interdum lobortis et nec quam. </string>
+    <string name="title_adolf_kjellstroms_villa">Adolf Kjellströms Villa</string>
+    <string name="title_allehandaborgen">Allehandaborgen</string>
+    <string name="title_centralpalatset">Centralpalatset</string>
+    <string name="title_drottninggatan_rudbecksgatan">Drottninggatan/Rudbecksgatan</string>
+    <string name="title_drottninggatan18">Drottninggatan 18</string>
+    <string name="title_engelbrektsskolan">Före detta Engelbrektsskolan</string>
+    <string name="title_fabriksgatan_nygatan">Fabriksgatan/Nygatan</string>
+    <string name="title_fargaregrand">Drottninggatan/Färgaregränd/Ågatan</string>
+    <string name="title_fenixhuset">Fenixhuset</string>
+    <string name="title_folkets_hus">Folkets Hus</string>
+    <string name="title_hagabro_hus">Hagabro Hus</string>
+    <string name="title_jarntorgsgatan_storgatan">Järntorgsgatan/Storgatan</string>
+    <string name="title_jarnvagsgatan12">Järnvägsgatan 12</string>
+    <string name="title_jugendpalatset">Jugendpalatset</string>
+    <string name="title_kopmangatan_vaghustorget">Köpmangatan/Våghustorget</string>
+    <string name="title_kopmangatan17">Köpmangatan17</string>
+    <string name="title_kopmangatan37to39">Köpmangatan 37&#8211;39</string>
+    <string name="title_kramaren">Krämaren</string>
+    <string name="title_manillagatan25">Manillagatan 25</string>
+    <string name="title_medborgarhuset">Medborgarhuset</string>
+    <string name="title_namndhuset">Nämndhuset</string>
+    <string name="title_nygatan49">Nygatan 49</string>
+    <string name="title_nygatan80">Nygatan 80</string>
+    <string name="title_radhuset">Rådhuset</string>
+    <string name="title_rosta">Rosta</string>
+    <string name="title_stadsteatern">Stadsteatern</string>
+    <string name="title_storgatan10">Storgatan 10</string>
+    <string name="title_stortorget16">Stortorget 16</string>
+    <string name="title_stortorget18">Stortorget18</string>
+    <string name="title_stortorget6">Stortorget 6</string>
+    <string name="title_telehuset">Telehuset</string>
+    <string name="title_trefaldighetskyrkan">Trefaldighetskyrkan</string>
+    <string name="title_vasastrand7">Vasastrand 7</string>
+    <string name="alphabet">Bokstavsordning</string>
+    <string name="year">Byggnadsår</string>
+    <string name="title_activity_image_viewer">ImageViewer</string>
+    <string name="info_stadsteatern">Norra strandgatan 7\n1851&#8211;1852\nH. Winjbladh</string>
+    <string name="image_button">Visa bild</string>
+    <string name="map_button">Visa på karta</string>
+    <string name="text_orebro">Namnet Horebro eller Örebro betyder bron lagd på ören (grus). Första gången namnet Örebro nämns är i ett donationsbrev utfärdat av Birger Brosa (farbror till den mer kände Birger Jarl) från 1100-talets slut. Sedan återfinns den år 1285 i en Magnus Ladulås testamente. Över Örebro gick medeltidens ”Europaväg” /Eriksgatuleden. Den gick från Jönköping över Falbyggden genom Skara och upp genom Tiveden till Örebro. Sedan fortsatt den norrut till Uppsala. Ursprunget till slottet är en befäst borg som anlades senare delen av 1200-talet. Örebros stadskärna har alltid varit långt och smalt och det beror på de geologiska förutsättningarna. Inledningsvis berörde jag varifrån namnet kommer och det är inte bara bron utan även det som betraktas som centrum som är byggd på en rullstensås, vilket gjorde att bebyggelse vids sidan av åsen undveks så staden kom att växa fram i nordsydlig riktning. Örebros torg, utformning och dess placering är influerade av Hansatiden. Ursprungligen var gatunätet smalt, slingrigt och oreglbundet. De äldsta delarna av Örebro återfinns med största sannolikhet i kvarteren kring Nikoloaikyrkan och Stortorget. Att man inte kan vara säker beror på att de genomsläppliga jordlagren i rullstensåsen har förstört organiskt material och metallföremål. Vid medeltidens slut var dock Örebro en liten och fattig stad. Men på 1600 talet ökade antalet invånare och i och med det ändras stadsbilden och det som kallas den svenska trästaden växer fram. Som i så många andra städer så har det mesta gått förlorat i brand så tyvärr finns inte något av dessa hus bevarade på ursprunglig plats idag. (gör som en fotnot: För den intresserade kan tre gårdsmiljöer från tiden ses i Wadköping.) 1854 brann de södra delar av staden ner från Storgatan vid Svartån till Våghustorget. En ny stadsplan med raka gator och rätvinkliga kvarter som byggde på barockens ideal fastställdes samma år. Den kom dock inte att fullföljas fullt ut. Staden växte mer än beräknat och nya behov uppstod samtidigt som Hjälmaren sänktes vilket öppnade upp för nya möjligheter. Därför kan man säga att det sena 1800-talet och tidiga 1900-talet präglar Örebros stadsbild för det var då man byggde mycket av det som vi idag kan se som vårt Örebro.</string>
+
+</resources>

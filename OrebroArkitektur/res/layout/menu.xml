@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center_horizontal"
+    android:paddingBottom="60dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MenuActivity" >
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/menu_button"
+        android:onClick="openOrebro"
+        android:text="@string/title_orebro"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_list"
+        android:onClick="openList" 
+        android:background="@drawable/menu_button" 
+        android:layout_margin="5dp"
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_map"
+        android:onClick="openMap"
+        android:background="@drawable/menu_button" 
+        android:layout_margin="5dp"
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_info"
+        android:onClick="openInfo" 
+        android:background="@drawable/menu_button" 
+        android:layout_margin="5dp"
+        android:textSize="16sp" />
+
+</LinearLayout>

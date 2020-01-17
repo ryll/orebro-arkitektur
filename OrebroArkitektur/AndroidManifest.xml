@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hallonhjerta.orebroarkitektur"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <!-- ********** Permissions ********** -->
+    <permission
+        android:name="com.hallonhjerta.orebroarkitektur.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.hallonhjerta.orebroarkitektur.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- ********** Application ********** -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.Menu"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.Orebro"
+            android:label="@string/title_orebro"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.List"
+            android:label="@string/title_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.Map"
+            android:label="@string/title_map"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.Info"
+            android:label="@string/title_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.ImageViewer"
+            android:label="@string/title_activity_image_viewer" >
+        </activity>
+
+        <!-- ********** Buildings ********** -->
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.AdolfKjellstromsVilla"
+            android:label="@string/title_adolf_kjellstroms_villa"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Allehandaborgen"
+            android:label="@string/title_allehandaborgen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Centralpalatset"
+            android:label="@string/title_centralpalatset"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Drottninggatan_Rudbecksgatan"
+            android:label="@string/title_drottninggatan_rudbecksgatan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Drottninggatan18"
+            android:label="@string/title_drottninggatan18"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Engelbrektsskolan"
+            android:label="@string/title_engelbrektsskolan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Fabriksgatan_Nygatan"
+            android:label="@string/title_fabriksgatan_nygatan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Fargaregrand"
+            android:label="@string/title_fargaregrand"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Fenixhuset"
+            android:label="@string/title_fenixhuset"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.FolketsHus"
+            android:label="@string/title_folkets_hus"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.HagabroHus"
+            android:label="@string/title_hagabro_hus"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Jarntorgsgatan_Storgatan"
+            android:label="@string/title_jarntorgsgatan_storgatan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Jarnvagsgatan12"
+            android:label="@string/title_jarnvagsgatan12"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Jugendpalatset"
+            android:label="@string/title_jugendpalatset"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Kopmangatan_Vaghustorget"
+            android:label="@string/title_kopmangatan_vaghustorget"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Kopmangatan17"
+            android:label="@string/title_kopmangatan17"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Kopmangatan37to39"
+            android:label="@string/title_kopmangatan37to39"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Kramaren"
+            android:label="@string/title_kramaren"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Manillagatan25"
+            android:label="@string/title_manillagatan25"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Medborgarhuset"
+            android:label="@string/title_medborgarhuset"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Namndhuset"
+            android:label="@string/title_namndhuset"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Nygatan49"
+            android:label="@string/title_nygatan49"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Nygatan80"
+            android:label="@string/title_nygatan80"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Radhuset"
+            android:label="@string/title_radhuset"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Rosta"
+            android:label="@string/title_rosta"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Stadsteatern"
+            android:label="@string/title_stadsteatern"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Storgatan10"
+            android:label="@string/title_storgatan10"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Stortorget16"
+            android:label="@string/title_stortorget16"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Stortorget18"
+            android:label="@string/title_stortorget18"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Stortorget6"
+            android:label="@string/title_stortorget6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Telehuset"
+            android:label="@string/title_telehuset"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Trefaldighetskyrkan"
+            android:label="@string/title_trefaldighetskyrkan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.hallonhjerta.orebroarkitektur.byggnader.Vasastrand7"
+            android:label="@string/title_vasastrand7"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- ********** Google API-Key ********** -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCwCBYUJx3lMO4hUAdX2Ww90itoZwohObM" />
+
+        
+    </application>
+
+</manifest>

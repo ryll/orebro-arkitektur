@@ -1,0 +1,14 @@
+<resources>
+	
+    <dimen name="margin">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="horizontal">16dp</dimen>
+    <dimen name="vertical">10dp</dimen>
+    <dimen name="text">14dp</dimen>
+    <dimen name="button">16dp</dimen>
+    <dimen name="subtitle">18dp</dimen>
+    <dimen name="title">24dp</dimen>
+    <dimen name="activity_vertical_margin">1dp</dimen>
+    <dimen name="activity_horizontal_margin">1dp</dimen>
+
+</resources>

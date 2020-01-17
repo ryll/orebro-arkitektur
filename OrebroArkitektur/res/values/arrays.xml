@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="list_buildings_ABC">
+        <item>Adolf Kjellströms Villa</item>
+        <item>Allehandaborgen</item>
+        <item>Centralpalatset</item>
+        <item>Drottninggatan/Rudbecksgatan</item>
+        <item>Drottninggatan 18</item>
+        <item>Före detta Engelbrektsskolan</item>
+        <item>Fabriksgatan/Nygatan</item> 
+        <item>Drottninggatan/Färgaregränd/Ågatan</item>
+        <item>Fenixhuset</item>
+        <item>Folkets Hus</item>
+        <item>Hagabro Hus</item>
+        <item>Järntorgsgatan/Storgatan</item>
+        <item>Järnvägsgatan 12</item>
+        <item>Jugendpalatset</item>
+        <item>Köpmangatan/Våghustorget</item>
+        <item>Köpmangatan 17</item>
+        <item>Köpmangatan 37-39</item>
+        <item>Krämaren</item>
+        <item>Manillagatan 25</item>
+        <item>Medborgarhuset</item>
+        <item>Nämndhuset</item>
+        <item>Nygatan 49</item>
+        <item>Nygatan 80</item>
+        <item>Rådhuset</item>
+        <item>Rosta</item>
+        <item>Stadsteatern</item>
+        <item>Storgatan 10</item>
+        <item>Stortorget 16</item>
+        <item>Stortorget 18</item> 
+        <item>Stortorget 6</item>
+        <item>Telehuset</item>
+        <item>Trefaldighetskyrkan</item>
+        <item>Vasastrand 7</item>     
+    </string-array>
+    <string-array name="list_buildings_123">
+        <item>Stadsteatern</item>
+        <item>Storgatan 10</item>
+        <item>Stortorget 16</item>
+        <item>Stortorget18</item> 
+        <item>Stortorget 6</item>
+        <item>Adolf Kjellströms Villa</item>
+        <item>Allehandaborgen</item>
+        <item>Centralpalatset</item>
+        <item>Drottninggatan/Rudbecksgatan</item>
+        <item>Drottninggatan 18</item>
+        <item>Före detta Engelbrektsskolan</item>
+        <item>Fabriksgatan/Nygatan</item> 
+        <item>Drottninggatan/Färgaregränd/Ågatan</item>
+        <item>Fenixhuset</item>
+        <item>Folkets Hus</item>
+        <item>Hagabro Hus</item>
+        <item>Järntorgsgatan/Storgatan</item>
+        <item>Järnvägsgatan 12</item>
+        <item>Jugendpalatset</item>
+        <item>Köpmangatan/Våghustorget</item>
+        <item>Köpmangatan17</item>
+        <item>Köpmangatan 37-39</item>
+        <item>Krämaren</item>
+        <item>Manillagatan 25</item>
+        <item>Medborgarhuset</item>
+        <item>Nämndhuset</item>
+        <item>Nygatan 49</item>
+        <item>Nygatan 80</item>
+        <item>Rådhuset</item>
+        <item>Rosta</item>
+        <item>Stadsteatern</item>
+        <item>Storgatan 10</item>
+        <item>Stortorget 16</item>
+        <item>Stortorget18</item> 
+        <item>Stortorget 6</item>
+        <item>Telehuset</item>
+        <item>Trefaldighetskyrkan</item>
+        <item>Vasastrand 7</item>     
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin"
+    tools:context=".BuildingTestActivity"
+    android:background="@color/blue_light" >
+
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:background="@color/blue_light"
+	    android:gravity="center_horizontal"
+	    android:text="@string/title_orebro"
+	    android:textColor="@color/black"
+	    android:textIsSelectable="true"
+	    android:textSize="@dimen/title"
+	    android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/vertical"
+        android:layout_marginTop="@dimen/vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_light"
+            android:paddingLeft="@dimen/horizontal"
+            android:paddingRight="@dimen/horizontal"
+            android:text="@string/text_orebro"
+            android:textColor="@color/black"
+            android:textIsSelectable="true"/>
+    </ScrollView>
+
+</LinearLayout>

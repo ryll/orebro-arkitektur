@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/margin"
+    tools:context=".BuildingTestActivity"
+    android:background="@color/blue_light" >
+
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/blue_light"
+        android:text="@string/title_stadsteatern"
+        android:textIsSelectable="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title"
+        android:gravity="center_horizontal" 
+        android:textStyle="bold"/>
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_light"
+        android:text="@string/info_stadsteatern"
+        android:textIsSelectable="true"
+        android:textColor="@color/black"
+        android:textSize="@dimen/subtitle"
+        android:gravity="center_horizontal" />
+	<LinearLayout     
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_marginLeft="@dimen/horizontal"
+	    android:layout_marginRight="@dimen/horizontal"
+	    android:layout_marginTop="@dimen/vertical"
+	    android:layout_marginBottom="@dimen/vertical"
+	    tools:context=".BuildingTestActivity"
+	    android:background="@color/blue_light" >
+	    
+	    <Button
+		    android:layout_width="fill_parent"
+		    android:layout_height="32dp"
+		    android:layout_weight="1"
+		    android:layout_marginRight="8dp"
+		    android:background="@drawable/building_button"
+		    android:onClick="viewImage"
+		    android:text="@string/image_button"
+		    android:textSize="@dimen/subtitle" />
+	    
+	    <Button
+		    android:layout_width="fill_parent"
+		    android:layout_height="32dp"
+		    android:layout_weight="1"
+		    android:layout_marginLeft="8dp"
+		    android:background="@drawable/building_button"
+		    android:onClick="viewMap"
+		    android:text="@string/map_button"
+		    android:textSize="@dimen/subtitle" />
+	</LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blue_light"
+            android:paddingLeft="@dimen/horizontal"
+            android:paddingRight="@dimen/horizontal"
+            android:text="@string/fet_text"
+            android:textColor="@color/black"
+            android:textIsSelectable="true"/>
+    </ScrollView>
+</LinearLayout>
